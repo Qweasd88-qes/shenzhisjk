@@ -1,0 +1,19 @@
+{
+  "display_name": "MemVault - 长效记忆与角色锚定",
+  "loading_order": 11,
+  "requires": [],
+  "optional": [],
+  "js": "index.js",
+  "css": "style.css",
+  "settings": {
+    "summary_model": "deepseek-chat",
+    "summary_api_key": "",
+    "summary_base_url": "https://api.deepseek.com/v1",
+    "batch_size": 15,
+    "audit_interval": 50,
+    "max_l2_entries": 200,
+    "enable_anchor": true,
+    "enable_isolation": true,
+    "max_recall_tokens": 1536
+  }
+}
