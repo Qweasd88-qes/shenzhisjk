@@ -1,0 +1,17 @@
+#memvault-settings h3 {
+    margin-top: 0;
+}
+#memvault-settings label {
+    display: inline-block;
+    width: 220px;
+    vertical-align: middle;
+}
+#memvault-settings input[type="text"],
+#memvault-settings input[type="url"],
+#memvault-settings input[type="password"],
+#memvault-settings input[type="number"] {
+    width: 250px;
+}
+#memvault-settings hr {
+    margin: 10px 0;
+}
